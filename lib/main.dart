@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:indrive_clone/src/presentation/pages/auth/login/LoginContent.dart';
 import 'package:indrive_clone/src/presentation/pages/auth/login/loginPage.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'InDrive Clone',
-      home: const LoginContent(),
+      home: const LoginPage(),
     );
   }
 }
